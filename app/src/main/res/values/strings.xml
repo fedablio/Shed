@@ -1,0 +1,46 @@
+<resources>
+    <!-->hint<!-->
+    <string name="htId">Pilot ID</string>
+    <string name="htSenha">Group password</string>
+    <string name="htNome">Your name</string>
+    <string name="htCanal">Your channel</string>
+    <!-->textView<!-->
+    <string name="tvId">Pilot ID:</string>
+    <string name="tvSenha">Password:</string>
+    <string name="tvNome">Name:</string>
+    <string name="tvCanal">Channel:</string>
+    <string name="tvBanda">Band:</string>
+    <string name="tvExcluir">Do you really want to delete?</string>
+    <string name="tvCarregando">Loading</string>
+    <string name="tvSemInternet">Connect your smartphone to the internet and open the app again!</string>
+    <string name="tvCommonsCreative">Stone Age Man (Creative Commons license)</string>
+    <!-->button<!-->
+    <string name="btSalvar">Save</string>
+    <string name="btAbrir">Open</string>
+    <string name="btExcluir">Delete</string>
+    <string name="btPesquisar">Search</string>
+    <string name="btSim">Yes</string>
+    <string name="btNao">No</string>
+    <!-->menu<!-->
+    <string name="mnSobre">About</string>
+    <string name="mnCasa">Home</string>
+    <string name="mnCherry">Add</string>
+    <string name="mnApple">Exit</string>
+    <string name="mnVoltar">Back</string>
+    <!-->toast<!-->
+    <string name="ttCampoBranco">There are fields left unfilled!</string>
+    <string name="ttNadaExcluir">There is nothing to delete!</string>
+    <string name="ttCurioso">Can\'t resist!</string>
+    <!-->array<!-->
+    <string-array name="array01">
+        <item>Your band</item>
+        <item>Analog</item>
+        <item>Digital</item>
+    </string-array>
+    <!-->system<!-->
+    <string name="app_name">Shed</string>
+    <string name="title_activity_main">Activity Main</string>
+    <string name="title_activity_banana">BananaActivity</string>
+    <string name="first_fragment_label">First Fragment Label</string>
+    <string name="second_fragment_label">Second Fragment Label</string>
+</resources>

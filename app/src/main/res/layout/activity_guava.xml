@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="251sp"
+            android:layout_height="192sp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/homem" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom|center"
+            android:text="@string/tvCommonsCreative"
+            android:textColor="@color/cinza"
+            android:textSize="6sp"
+            android:textStyle="" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center"
+        android:text="@string/tvSemInternet"
+        android:textColor="@color/preto"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

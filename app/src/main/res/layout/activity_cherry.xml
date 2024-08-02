@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/branco"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvId"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/etIdCherry"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="id"
+        android:background="@drawable/campo"
+        android:hint="@string/htId"
+        android:inputType="text"
+        android:maxLength="4"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvSenha"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/etSenhaCherry"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="senha"
+        android:background="@drawable/campo"
+        android:hint="@string/htSenha"
+        android:inputType="text"
+        android:maxLength="15"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvNome"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNomeCherry"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="name"
+        android:background="@drawable/campo"
+        android:hint="@string/htNome"
+        android:inputType="text"
+        android:maxLength="15"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:textColor="@color/preto"
+        android:textColorHint="@color/cinza"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvCanal"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etCanalCherry"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:autofillHints="channel"
+        android:background="@drawable/campo"
+        android:hint="@string/htCanal"
+        android:inputType="number"
+        android:maxLength="5"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:textColor="@color/preto"
+        android:textColorHint="@color/cinza"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvBanda"
+        android:textColor="@color/preto"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spBandaCherry"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/campo"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:textColor="@color/preto" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:layout_margin="2sp"
+            android:layout_weight="1"
+            android:background="@drawable/botao"
+            android:onClick="salvar_cherry"
+            android:text="@string/btSalvar"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="48sp"
+            android:layout_margin="2sp"
+            android:layout_weight="1"
+            android:background="@drawable/botao"
+            android:onClick="excluir_cherry"
+            android:text="@string/btExcluir"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
