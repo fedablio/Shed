@@ -51,11 +51,11 @@ public class AppleActivity extends Activity {
     }
 
     private void entra() {
-        ConnectionFactory.url = porta.abre("J9QaxU2GzeRX/nM2ppSX");
-        ConnectionFactory.por = porta.abre("Z5VcxA==");
-        ConnectionFactory.ban = porta.abre("IZ9VwU+J2r8RvUs34Jic");
-        ConnectionFactory.use = porta.abre("IZ9VwU+J2r8RvUsg7ZWL");
-        ConnectionFactory.pas = porta.abre("FZIO0Q3sj9lD7X4G");
+        ConnectionFactory.url = porta.abre(""); // OBTER
+        ConnectionFactory.por = porta.abre(""); // OBTER
+        ConnectionFactory.ban = porta.abre(""); // OBTER
+        ConnectionFactory.use = porta.abre(""); // OBTER
+        ConnectionFactory.pas = porta.abre(""); // OBTER
     }
 
     private void registra() {

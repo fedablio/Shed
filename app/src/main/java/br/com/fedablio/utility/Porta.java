@@ -11,7 +11,7 @@ import javax.crypto.spec.SecretKeySpec;
 
 public class Porta {
 
-    private static final String chave = "banana";
+    private static final String chave = ""; // OBTER
     private static String tipo = "RC4";
 
     public String fecha(String valor) {
